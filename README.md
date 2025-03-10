@@ -46,4 +46,5 @@
 
 - ## Many thanks to:
   - ### [Phisher98](https://github.com/Phisher98) for his support and for IPTV extension template, QuickIPTV, which has been used in this extension (https://github.com/phisher98/cloudstream-extensions-phisher).
-  - ### Cloudstream developers and contributers for the amazing work they have done to make Cloudstream one of the best extensible media center for Android. 
+  - ### Cloudstream developers and contributers for the amazing work they have done to make Cloudstream one of the best extensible media center for Android.
+  - ### MustardChef for the [IPTV Playlist Checker](https://github.com/MustardChef/IPTVPlaylistChecker) script
