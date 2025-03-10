@@ -1,5 +1,5 @@
 <div align="center"><h1>An IPTV Extension/Plugin for Cloudstream </h1></div>
-<div align="center"><h2>⚠️ A WORK IN PROGRESS ⚠️ </h2></div>
+<div align="center"><h2>[DMCA] []</h2></div>
 
 <br/>
 
@@ -30,7 +30,7 @@
 
 <br/>
 
-<h1>DMCA</h1>
+<h1>DMCA/EUCA</h1>
 
 > [!IMPORTANT]  
 > ### We hereby issue this notice to inform you that:
