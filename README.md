@@ -1,5 +1,5 @@
 <div align="center"><h1>An IPTV Extension/Plugin for Cloudstream </h1></div>
-<div align="center"><h2>[DMCA] []</h2></div>
+<div align="center"><h2>[DMCA](https://github.com/HaoTianming/Public-IPTV#dmca)</h2></div>
 
 <br/>
 
