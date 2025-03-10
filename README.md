@@ -30,7 +30,7 @@
 
 <br/>
 
-<h1>DMCA/EUCA</h1>
+<h1>DMCA</h1>
 
 > [!IMPORTANT]  
 > ### We hereby issue this notice to inform you that:
