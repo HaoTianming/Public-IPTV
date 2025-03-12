@@ -2,10 +2,6 @@ name: IPTV Playlist Checker
 on:
   workflow_dispatch:
     inputs:
-      PLAYLIST_URL:
-        description: 'URL of the playlist to check'
-        required: true
-        default: 'https://iptv-org.github.io/iptv/index.m3u'
       NUM_THREADS:
         description: 'Number of threads to use'
         type: number
@@ -42,15 +38,13 @@ jobs:
         run:
             pip install -r requirements.txt
 
-      - name: Download playlist to check 📥
+      - name: Obtain and merge playlists 📥
         run: |
-          wget -q $PLAYLIST_URL -O playlist.m3u8
-        env:
-          PLAYLIST_URL: ${{ inputs.PLAYLIST_URL }}    
+          python ./pyscripts/mergeplaylists.py playlist.m3u8 "C:\Users\MustardChef\Downloads\urls.json"
 
-      - name: Download script and check playlist 📺    
+      - name: Check playlist 📺    
         run: |
-          python iptvcheck.py -p playlist.m3u8 -s playlistchecked.m3u8 -t $NUM_THREADS -ft $TIMEOUT
+          python ./pyscripts/iptvcheck.py -p playlist.m3u8 -s final.m3u8 -t $NUM_THREADS -ft $TIMEOUT
         env:
           NUM_THREADS: ${{ inputs.NUM_THREADS }}
           TIMEOUT: ${{ inputs.TIMEOUT }}  
@@ -62,7 +56,7 @@ jobs:
       - name: Upload Results to artifacts 📤
         uses: actions/upload-artifact@v4
         with:
-           name: playlistchecked
-           path: playlistchecked.m3u8
+           name: Final Playlist
+           path: final.m3u8
            retention-days: 0
            compression-level: 6
