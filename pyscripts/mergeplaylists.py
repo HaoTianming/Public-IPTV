@@ -1,3 +1,7 @@
+# THIS CODE/WORK IS LICENSED UNDER THE GNU Affero General Public License v3.0 (GNU AGPLv3)
+# Copyright (c) 2025 MustardChef
+# THE GNU AGPLv3 LICENSE APPLICABLE TO THIS CODE/WORK CAN BE FOUND IN THE LICENSE FILE IN THIS REPOSITORY
+
 import sys
 import os
 import json
