@@ -45,6 +45,7 @@ jobs:
         run: |
             printf '%s' "${{ secrets.WIREGUARDCONFIG }}" | sudo tee /etc/wireguard/wg0.conf > /dev/null
             sudo wg-quick up wg0
+            sudo wg
 
       - name: Check IP Address   
         run: curl -4 icanhazip.com
