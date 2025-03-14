@@ -48,7 +48,7 @@ jobs:
             sudo wg
 
       - name: Check IP Address   
-        run: curl -4 icanhazip.com
+        run: curl ifconfig.me
 
       - name: Obtain and merge playlists 📥
         run: |
