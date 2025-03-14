@@ -42,11 +42,9 @@ jobs:
             sudo apt-get install resolvconf wireguard
             
       - name: Setup and Connect to VPN
-        run: 
-            printf '%s' '${{ secrets.wireguardconfig }}' > ~/wg0.conf
-            sudo chmod 600 ~/wg0.conf
-            echo "Set up config"
-            sudo wg-quick up ~/wg0.conf
+        run: |
+            printf '%s' "${{ secrets.WIREGUARDCONFIG }}" | sudo tee /etc/wireguard/wg0.conf > /dev/null
+            sudo wg-quick up wg0
 
       - name: Check IP Address   
         run: curl -4 icanhazip.com
@@ -64,8 +62,8 @@ jobs:
 
       - name: Disconnect from VPN and remove config file
         run: |
-            sudo wg-quick down ~/wg0.conf
-            sudo rm -rf ~/wg0.conf
+            sudo wg-quick down wg0
+            sudo rm -rf /etc/wireguard/wg0.conf
 
       - name: Check Files and Folders and Subfolders 📂
         run: |
