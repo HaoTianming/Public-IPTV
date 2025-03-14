@@ -35,6 +35,11 @@ jobs:
       - name: Install Python Dependencies 🧑‍🏭    
         run:
             pip install -r requirements.txt
+            
+      - name: Setup OVPN Dependencies 🧑‍🏭
+        run:
+            sudo apt-get update
+            sudo apt-get install openvpn
 
       - name: Obtain and merge playlists 📥
         run: |
