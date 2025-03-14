@@ -29,10 +29,8 @@ jobs:
         with:
           python-version: '3.13' 
 
-      - name: Install FFMPEG Dependencies 🧑‍🏭
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
+      - name: Setup FFMPEG Dependencies 🧑‍🏭
+        uses: AnimMouse/setup-ffmpeg@v1
 
       - name: Install Python Dependencies 🧑‍🏭    
         run:
