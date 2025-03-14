@@ -33,11 +33,11 @@ jobs:
         uses: AnimMouse/setup-ffmpeg@v1
 
       - name: Install Python Dependencies 🧑‍🏭    
-        run:
+        run: |
             pip install -r requirements.txt
             
       - name: Setup WireGuard Dependencies 🧑‍🏭
-        run:
+        run: |
             sudo apt-get update
             sudo apt-get install resolvconf wireguard
             
@@ -63,7 +63,7 @@ jobs:
           TIMEOUT: ${{ inputs.TIMEOUT }} 
 
       - name: Disconnect from VPN and remove config file
-        run: 
+        run: |
             sudo wg-quick down ~/wg0.conf
             sudo rm -rf ~/wg0.conf
 
