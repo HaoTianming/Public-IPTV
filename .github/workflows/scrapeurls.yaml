@@ -79,7 +79,7 @@ jobs:
 
       - name: Remove Files 🗑️
         run: |
-            sudo rm -rf          
+            sudo rm -rf .github/pyscripts/playlists/playlist.m3u8        
 
       - name: Check Files and Folders and Subfolders 📂
         run: |
