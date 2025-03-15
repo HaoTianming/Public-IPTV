@@ -59,13 +59,15 @@ jobs:
         run: curl ifconfig.me
 
       - name: Obtain and merge playlists 📥
+        working-directory: .github/pyscripts
         run: |
-          mkdir .github/pyscripts/playlists
-          python ./.github/pyscripts/mergeplaylists.py .github/pyscripts/playlists/playlist.m3u8 "./.github/pyscripts/urls.json"
+          mkdir playlists
+          python mergeplaylists.py playlists/playlist.m3u8 urls.json
 
-      - name: Check playlist 📺    
+      - name: Check playlist 📺 
+        working-directory: .github/pyscripts
         run: |
-          python ./.github/pyscripts/iptvcheck.py -p .github/pyscripts/playlists/playlist.m3u8 -s .github/pyscripts/playlists/scrapedstreams.m3u8 -t $NUM_THREADS -ft $TIMEOUT
+          python iptvcheck.py -p playlists/playlist.m3u8 -s playlists/scrapedstreams.m3u8 -t $NUM_THREADS -ft $TIMEOUT
         env:
           NUM_THREADS: ${{ inputs.NUM_THREADS }}
           TIMEOUT: ${{ inputs.TIMEOUT }} 
@@ -81,11 +83,12 @@ jobs:
 
       - name: Check Files and Folders and Subfolders 📂
         run: |
-          ls -lahR .github/pyscripts/playlists/playlist.m3u8
+          ls -lahR
           
       - name: Commit and push changes
         run: |
           git diff
+          git add .github/pyscripts/playlists/
           git config --global user.email "184839081+HaoTianming@users.noreply.github.com"
           git config --global user.name "HaoTianming"
           git commit -am "Scrape Public IPTV Sources" || exit 0
