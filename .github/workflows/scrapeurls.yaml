@@ -16,11 +16,20 @@ on:
         # - cron: '0 0 * * *'
 
 jobs:
-  build:  
+  check:  
     name: IPTV Playlist Check
     runs-on: ubuntu-latest
-
+    
     steps:
+      - name: Delete old workflow run ❌
+        uses: Mattraks/delete-workflow-runs@v2.0.6
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 3
+          keep_minimum_runs: 4
+          delete_workflow_pattern: "IPTV Playlist Checker"
+          
       - name: Checkout ♻️
         uses: actions/checkout@v4
 
@@ -41,7 +50,7 @@ jobs:
             sudo apt-get update
             sudo apt-get install resolvconf wireguard
             
-      - name: Setup and Connect to VPN
+      - name: Setup and Connect to VPN 📶🛜
         run: |
             printf '%s' "${{ secrets.WIREGUARDCONFIG }}" | sudo tee /etc/wireguard/wg0.conf > /dev/null
             sudo wg-quick up wg0 > /dev/null
@@ -51,28 +60,34 @@ jobs:
 
       - name: Obtain and merge playlists 📥
         run: |
-          python ./.github/pyscripts/mergeplaylists.py playlist.m3u8 "./.github/pyscripts/urls.json"
+          mkdir .github/pyscripts/playlists
+          python ./.github/pyscripts/mergeplaylists.py .github/pyscripts/playlists/playlist.m3u8 "./.github/pyscripts/urls.json"
 
       - name: Check playlist 📺    
         run: |
-          python ./.github/pyscripts/iptvcheck.py -p playlist.m3u8 -s final.m3u8 -t $NUM_THREADS -ft $TIMEOUT
+          python ./.github/pyscripts/iptvcheck.py -p .github/pyscripts/playlists/playlist.m3u8 -s .github/pyscripts/playlists/scrapedstreams.m3u8 -t $NUM_THREADS -ft $TIMEOUT
         env:
           NUM_THREADS: ${{ inputs.NUM_THREADS }}
           TIMEOUT: ${{ inputs.TIMEOUT }} 
 
-      - name: Disconnect from VPN and remove config file
+      - name: Disconnect from VPN and remove config file 📶🛜
         run: |
             sudo wg-quick down wg0 > /dev/null
             sudo rm -rf /etc/wireguard/wg0.conf > /dev/null
 
+      - name: Remove Files 🗑️
+        run: |
+            sudo rm -rf          
+
       - name: Check Files and Folders and Subfolders 📂
         run: |
-          ls -lahR
-
-      - name: Upload Results to artifacts 📤
-        uses: actions/upload-artifact@v4
-        with:
-           name: Final Playlist
-           path: final.m3u8
-           retention-days: 0
-           compression-level: 6
+          ls -lahR .github/pyscripts/playlists/playlist.m3u8
+          
+      - name: Commit and push changes
+        run: |
+          git diff
+          git config --global user.email "68516357+MustardChef@users.noreply.github.com"
+          git config --global user.name "MustardChef"
+          git commit -am "Update Download Links for Update: ${{ env.LATEST_VER }}" || exit 0
+          git pull --rebase origin master
+          git push
