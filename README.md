@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <a href="https://github.com/HaoTianming/Public-IPTV/raw/refs/heads/master/LICENSE"><img src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a><br/>
+  <a href="https://github.com/HaoTianming/Public-IPTV/raw/refs/heads/master/LICENSE"><img src="https://www.gnu.org/graphics/agplv3-with-text-162x68.png" /></a><br/><br/>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,gradle,github,githubactions&theme=light&perline=5" />
   </a>
