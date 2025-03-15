@@ -43,7 +43,7 @@ jobs:
 
       - name: Install Python Dependencies 🧑‍🏭    
         run: |
-            pip install -r requirements.txt
+            pip install -r .github/pyscripts/requirements.txt
             
       - name: Setup WireGuard Dependencies 🧑‍🏭
         run: |
@@ -88,6 +88,6 @@ jobs:
           git diff
           git config --global user.email "184839081+HaoTianming@users.noreply.github.com"
           git config --global user.name "HaoTianming"
-          git commit -am "Scrape for Public IPTV Sources" || exit 0
+          git commit -am "Scrape Public IPTV Sources" || exit 0
           git pull --rebase origin master
           git push
