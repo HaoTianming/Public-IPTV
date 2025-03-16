@@ -12,104 +12,12 @@ on:
 #        type: number
 #       required: true
 #        default: '25'
-  workflow_run:
-    workflows: [IPTV Playlist Checker]
-    types: [completed]
   schedule:
          - cron: "0 */1 * * *"
 
 jobs:
   check:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    name: IPTV Playlist Check (Successful Workflow Run)
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Delete old workflow run ❌
-        uses: Mattraks/delete-workflow-runs@v2.0.6
-        with:
-          token: ${{ github.token }}
-          repository: ${{ github.repository }}
-          retain_days: 0
-          keep_minimum_runs: 1
-          delete_workflow_pattern: "IPTV Playlist Checker"
-          
-      - name: Checkout ♻️
-        uses: actions/checkout@v4
-
-      - name: Setup Python 🐍
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13' 
-
-      - name: Setup FFMPEG Dependencies 🧑‍🏭
-        uses: AnimMouse/setup-ffmpeg@v1
-
-      - name: Install Python Dependencies 🧑‍🏭    
-        run: |
-            pip install -r .github/pyscripts/requirements.txt
-            
-      - name: Setup WireGuard Dependencies 🧑‍🏭
-        run: |
-            sudo apt-get update
-            sudo apt-get install resolvconf wireguard
-            
-      - name: Setup and Connect to VPN 📶🛜
-        run: |
-            printf '%s' "${{ secrets.WIREGUARDCONFIG }}" | sudo tee /etc/wireguard/wg0.conf > /dev/null
-            sudo wg-quick up wg0 > /dev/null
-
-      - name: Check IP Address   
-        run: curl ifconfig.me
-        
-      - name: Delete existing playlists files ❌
-        working-directory: .github/pyscripts
-        run: |
-          sudo rm -f playlists/playlist.m3u8
-          sudo rm -f playlists/scrapedstreams.m3u8
-          sudo rm -f iptv_check.log
-
-
-      - name: Obtain and merge playlists 📥
-        working-directory: .github/pyscripts
-        run: |
-          mkdir -p playlists
-          python mergeplaylists.py playlists/playlist.m3u8 urls.json
-
-      - name: Check playlist 📺 
-        working-directory: .github/pyscripts
-        run: |
-          python iptvcheck.py -p playlists/playlist.m3u8 -s playlists/scrapedstreams.m3u8 -t 8 -ft 10
-        env:
-          NUM_THREADS: ${{ inputs.NUM_THREADS }}
-          TIMEOUT: ${{ inputs.TIMEOUT }} 
-
-      - name: Disconnect from VPN and remove config file 📶🛜
-        run: |
-            sudo wg-quick down wg0 > /dev/null
-            sudo rm -rf /etc/wireguard/wg0.conf > /dev/null
-
-      - name: Remove Files 🗑️
-        run: |
-            sudo rm -f .github/pyscripts/playlists/playlist.m3u8        
-
-      - name: Check Files and Folders and Subfolders 📂
-        run: |
-          ls -lahR
-          
-      - name: Commit and push changes
-        run: |
-          git diff
-          git add .github/pyscripts/playlists/
-          git add .github/pyscripts/iptv_check.log
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git commit -am "Scrape Public IPTV Sources" || exit 0
-          git pull --rebase origin main
-          git push
-  check2:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    name: IPTV Playlist Check (Failed Workflow Run)
+    name: IPTV Playlist Check
     runs-on: ubuntu-latest
     
     steps:
