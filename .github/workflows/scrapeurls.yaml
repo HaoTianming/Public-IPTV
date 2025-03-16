@@ -21,8 +21,8 @@ on:
         required: true
         default: 'wireguard'
           
-  schedule:
-         - cron: "0 */1 * * *"
+#  schedule:
+#         - cron: "0 */2 * * *"
 
 jobs:
   check:
@@ -106,12 +106,19 @@ jobs:
 #          NUM_THREADS: ${{ inputs.num_threads }}
 #          TIMEOUT: ${{ inputs.timeout }} 
 
-      - name: Disconnect from WireGuard VPN and remove WireGuard config file 📶🛜
+      - name: Disconnect from WireGuard VPN connection and remove WireGuard config files 📶🛜
         if: inputs.vpn == 'wireguard' 
         run: |
             sudo wg-quick down wg0 > /dev/null 2>&1
             sudo rm -rf /etc/wireguard/wg0.conf > /dev/null
 
+      - name: Disconnect from OpenVPN VPN connection and remove OpenVPN config files 📶🛜
+        if: inputs.vpn == 'openvpn' 
+        run: |
+            sudo killall openvpn 
+            sudo rm -rf ~/config.ovpn
+            sudo rm -rf /etc/openvpn/credentials.txt
+            
       - name: Remove unnecessary files 🗑️
         run: |
             sudo rm -f .github/pyscripts/playlists/playlist.m3u8        
@@ -126,7 +133,7 @@ jobs:
           git add .github/pyscripts/playlists/
           git add .github/pyscripts/iptv_check.log
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+          git config --global user.name "GitHub Actions"
           git commit -am "Scrape Public IPTV Sources" || exit 0
           git pull --rebase origin main
           git push
