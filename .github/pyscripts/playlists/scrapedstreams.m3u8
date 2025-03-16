@@ -4,83 +4,88 @@
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://director.taihotel.asia/v3/director/VE1ZjIyMTE5ZjllNjRkLWYxNWEtMTg5NC02ZTE2LWNiYmQxMDZm/master.m3u8?md5=wOKC77RoU7yPv5TWgWe2Jg&expires=1742162400
-#EXTINF:-1 tvg-logo="https://i.imgur.com/eMjAbID.png" group-title="BASKETBALL",George Mason Patriots vs. VCU Rams
-#EXTVLCOPT:http-origin=https://ppv.land
-#EXTVLCOPT:http-referrer=https://ppv.land/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1YWE2Yzk3NWYxYmZiLWQ1MmEtMTEyNC1jN2NlLTVkNzRiNzc5/master.m3u8?md5=cZ4sjpDTpTFdtl4sFiCVEA&expires=1742155200
-#EXTINF:-1 tvg-logo="https://i.imgur.com/wYFVYP0.jpeg" group-title="BASKETBALL",NCAA Men's Basketball Championship Selection Show
-#EXTVLCOPT:http-origin=https://ppv.land
-#EXTVLCOPT:http-referrer=https://ppv.land/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1YWE2Yzk3NWYxYmZiLWQ1MmEtMTEyNC1jN2NlLTVkNzRiNzc5/master.m3u8?md5=LDE4kvsBntJWsLsCnRKs0g&expires=1742166000
 #EXTINF:-1 tvg-logo="https://i.imgur.com/f9bXFg5.png" group-title="BASKETBALL",Wisconsin Badgers vs. Michigan Wolverines
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://director.taihotel.asia/v3/director/VE1YWE2Yzk3NWYxYmZiLWQ1MmEtMTEyNC1jN2NlLTVkNzRiNzc5/master.m3u8?md5=iIbeALVjdqwKM9F9mf3dZw&expires=1742164200
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/phi-dal/1280x720.png" group-title="BASKETBALL",76ers at Mavericks
+#EXTVLCOPT:http-origin=https://ppv.land
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://director.taihotel.asia/v3/director/VE1ZmJlYWVkMjViNDlkLTBhMTktYjExNC1jNzk1LTcwZmNiYWZi/master.m3u8?md5=CBGGvqBUFez0dHCVAPGljw&expires=1742154300
 #EXTINF:-1 tvg-logo="https://i.imgur.com/q8x6BSk.png" group-title="BASKETBALL",Tennessee Volunteers vs. Florida Gators
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://director.taihotel.asia/v3/director/VE1ZjIyMTE5ZjllNjRkLWYxNWEtMTg5NC02ZTE2LWNiYmQxMDZm/master.m3u8?md5=cZ4sjpDTpTFdtl4sFiCVEA&expires=1742155200
-#EXTINF:-1 tvg-logo="https://i.imgur.com/693ldaX.jpeg" group-title="FOOTBALL",EPL: Fulham vs Tottenham Hotspur
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wYFVYP0.jpeg" group-title="BASKETBALL",NCAA Men's Basketball Championship Selection Show
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1NGQ4YjM2NTNkMzJkLTU1Y2EtYmE2NC1kZjJkLWNlYzkyODZh/master.m3u8?md5=ZHPMLxGqW8NHjEPdBA9kNw&expires=1742140800
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5D7J9t6.jpeg" group-title="FOOTBALL",EPL: Arsenal vs Chelsea
+https://director.taihotel.asia/v3/director/VE1YWE2Yzk3NWYxYmZiLWQ1MmEtMTEyNC1jN2NlLTVkNzRiNzc5/master.m3u8?md5=LDE4kvsBntJWsLsCnRKs0g&expires=1742166000
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FBEkEcv.png" group-title="BASKETBALL",Cornell Big Red vs. Yale Bulldogs
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1Y2U0YThlZWM1MjcyLTVkMmItZTBiNC1lYzJjLTcxNzM0YzM3/master.m3u8?md5=ZHPMLxGqW8NHjEPdBA9kNw&expires=1742140800
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4RKMpCe.jpeg" group-title="FOOTBALL",Carabao Cup Final: Liverpool vs Newcastle United
+https://director.taihotel.asia/v3/director/VE1OGI0NDhlM2ZhZjVkLWIyYTgtM2Y2NC05MmFlLThlYzIzOTk4/master.m3u8?md5=fo_1qBdrXGug_zv1aj-7Ew&expires=1742151600
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/phx-lal/1280x720.png" group-title="BASKETBALL",Suns at Lakers
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1ODI3YjQ1YjQ1Yzc2LTM5NGEtZGRlNC00MGQ0LTEzZmFhNTYx/master.m3u8?md5=fo_1qBdrXGug_zv1aj-7Ew&expires=1742151600
+https://director.taihotel.asia/v3/director/VE1NWZkOTE2OGU0NTZlLTg3MjktN2EzNC04YTQ2LTRhMmQ1MDBh/master.m3u8?md5=r09K6JewKqRf7MjwgkUFKA&expires=1742163300
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/orl-cle/1280x720.png" group-title="BASKETBALL",Magic at Cavaliers
+#EXTVLCOPT:http-origin=https://ppv.land
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://director.taihotel.asia/v3/director/VE1NWZkOTE2OGU0NTZlLTg3MjktN2EzNC04YTQ2LTRhMmQ1MDBh/master.m3u8?md5=CBGGvqBUFez0dHCVAPGljw&expires=1742154300
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eMjAbID.png" group-title="BASKETBALL",George Mason Patriots vs. VCU Rams
+#EXTVLCOPT:http-origin=https://ppv.land
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://director.taihotel.asia/v3/director/VE1YWE2Yzk3NWYxYmZiLWQ1MmEtMTEyNC1jN2NlLTVkNzRiNzc5/master.m3u8?md5=cZ4sjpDTpTFdtl4sFiCVEA&expires=1742155200
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/okc-mil/1280x720.png" group-title="BASKETBALL",Thunder at Bucks
+#EXTVLCOPT:http-origin=https://ppv.land
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://director.taihotel.asia/v3/director/VE1NWUwYjUwOWM3MWY0LTg3YmEtZjkwNC1iYjcwLWYxYTljZTk3/master.m3u8?md5=qDN0Q-P0eMjVpKAQ_lGvvw&expires=1742183100
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2qbTcjS.jpeg" group-title="FOOTBALL",EPL: Leicester City vs Manchester United
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://director.taihotel.asia/v3/director/VE1Y2U0YThlZWM1MjcyLTVkMmItZTBiNC1lYzJjLTcxNzM0YzM3/master.m3u8?md5=8aLOmAw-rPrds3yFbDKGbA&expires=1742160600
-#EXTINF:-1 tvg-logo="https://i.imgur.com/g2sqrFM.png" group-title="MLB",Chicago Cubs vs. Tokyo Yomiuri Giants
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4RKMpCe.jpeg" group-title="FOOTBALL",Carabao Cup Final: Liverpool vs Newcastle United
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1M2IyYTE4OGFmNjY5LWRlMDktYTc0NC0yMjg1LWU0MjAyNDU1/master.m3u8?md5=66NTcT3T0FdDnbKWlYWXRA&expires=1742130000
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ddFzJZe.png" group-title="MLB",Athletics vs. San Francisco Giants
+https://director.taihotel.asia/v3/director/VE1ODI3YjQ1YjQ1Yzc2LTM5NGEtZGRlNC00MGQ0LTEzZmFhNTYx/master.m3u8?md5=fo_1qBdrXGug_zv1aj-7Ew&expires=1742151600
+#EXTINF:-1 tvg-logo="https://i.imgur.com/utlSACx.png" group-title="STREAMS",The Players Championship Final Round
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1M2IyYTE4OGFmNjY5LWRlMDktYTc0NC0yMjg1LWU0MjAyNDU1/master.m3u8?md5=S5p7XdPSTd1aXIZN9kvYag&expires=1742166300
+https://director.taihotel.asia/v3/director/VE1MWUzZDA3ODhlYTRiLWJjZDktNmZiNC1hZTQxLTcxOTU2ZmI5/master.m3u8?md5=LDE4kvsBntJWsLsCnRKs0g&expires=1742166000
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kJ6395b.jpeg" group-title="24/7 STREAMS",ESPN
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://director.taihotel.asia/v3/director/VE1NWUwYjUwOWM3MWY0LTg3YmEtZjkwNC1iYjcwLWYxYTljZTk3/master.m3u8?md5=ucMRWDzzwlEe3TgY4qZ2zg&expires=1705611600
-#EXTINF:-1 tvg-logo="https://i.imgur.com/zKJYnC4.png" group-title="MOTORSPORTS",F1: Australian Grand Prix
-#EXTVLCOPT:http-origin=https://ppv.land
-#EXTVLCOPT:http-referrer=https://ppv.land/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1ZGFmZjU1ZjAxMmM5LTFjYTgtOTM0NC1lOTY2LTE3NDVjNzgy/master.m3u8?md5=qIYhol_MWOch7BH6fDEXvg&expires=1742104800
-#EXTINF:-1 tvg-logo="https://waw01-1gbe.fscdn.fun/southpark/preview.jpg" group-title="24/7 STREAMS",24/7 South Park
-#EXTVLCOPT:http-origin=https://ppv.land
-#EXTVLCOPT:http-referrer=https://ppv.land/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1ZGEyNDNkZWMyNzFjLWU2OWItNzFlNC00NWU5LTUyODY0MWIz/master.m3u8?md5=otrcbfcS7DFjja08DP6NqQ&expires=1737196080
 #EXTINF:-1 tvg-logo="https://waw01-1gbe.fscdn.fun/thesimpsons/preview.jpg" group-title="24/7 STREAMS",24/7 The Simpsons
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://director.taihotel.asia/v3/director/VE1MGQzNzI5MTE0YjQwLTVmYmEtYmE3NC1kOThlLWY2MmU4NGI4/master.m3u8?md5=otrcbfcS7DFjja08DP6NqQ&expires=1737196080
+#EXTINF:-1 tvg-logo="https://waw01-1gbe.fscdn.fun/southpark/preview.jpg" group-title="24/7 STREAMS",24/7 South Park
+#EXTVLCOPT:http-origin=https://ppv.land
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://director.taihotel.asia/v3/director/VE1ZGEyNDNkZWMyNzFjLWU2OWItNzFlNC00NWU5LTUyODY0MWIz/master.m3u8?md5=otrcbfcS7DFjja08DP6NqQ&expires=1737196080
+#EXTINF:-1 tvg-id="BetterLifeNatureChannel.us" tvg-logo="https://i.imgur.com/LMHrQJu.png" group-title="Relax",Better Life Nature Channel (480p)
+https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/CnphStu.png" group-title="24/7 STREAMS",(North) Korean Central Television
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://tv.nknews.org/tvhls/stream.m3u8?md5=nZUgHENb68iNLS8NR2ChvQ&expires=1737237600
-#EXTINF:-1 tvg-id="BetterLifeNatureChannel.us" tvg-logo="https://i.imgur.com/LMHrQJu.png" group-title="Relax",Better Life Nature Channel (480p)
-https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
 #EXTINF:-1 tvg-id="MyZenTV.fr" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="Relax",Myzen TV [Geo-blocked]
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="10BoldAdelaide.au" tvg-logo="https://i.imgur.com/2xglh33.png" group-title="Lifestyle;Relax",10 Bold Adelaide (1080p)
