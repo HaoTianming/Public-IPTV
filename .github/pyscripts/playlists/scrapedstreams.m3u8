@@ -24,16 +24,16 @@ https://director.taihotel.asia/v3/director/VE1YWE2Yzk3NWYxYmZiLWQ1MmEtMTEyNC1jN2
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://director.taihotel.asia/v3/director/VE1ZjIyMTE5ZjllNjRkLWYxNWEtMTg5NC02ZTE2LWNiYmQxMDZm/master.m3u8?md5=cZ4sjpDTpTFdtl4sFiCVEA&expires=1742155200
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5D7J9t6.jpeg" group-title="FOOTBALL",EPL: Arsenal vs Chelsea
-#EXTVLCOPT:http-origin=https://ppv.land
-#EXTVLCOPT:http-referrer=https://ppv.land/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://director.taihotel.asia/v3/director/VE1Y2U0YThlZWM1MjcyLTVkMmItZTBiNC1lYzJjLTcxNzM0YzM3/master.m3u8?md5=ZHPMLxGqW8NHjEPdBA9kNw&expires=1742140800
 #EXTINF:-1 tvg-logo="https://i.imgur.com/693ldaX.jpeg" group-title="FOOTBALL",EPL: Fulham vs Tottenham Hotspur
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://director.taihotel.asia/v3/director/VE1NGQ4YjM2NTNkMzJkLTU1Y2EtYmE2NC1kZjJkLWNlYzkyODZh/master.m3u8?md5=ZHPMLxGqW8NHjEPdBA9kNw&expires=1742140800
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5D7J9t6.jpeg" group-title="FOOTBALL",EPL: Arsenal vs Chelsea
+#EXTVLCOPT:http-origin=https://ppv.land
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://director.taihotel.asia/v3/director/VE1Y2U0YThlZWM1MjcyLTVkMmItZTBiNC1lYzJjLTcxNzM0YzM3/master.m3u8?md5=ZHPMLxGqW8NHjEPdBA9kNw&expires=1742140800
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4RKMpCe.jpeg" group-title="FOOTBALL",Carabao Cup Final: Liverpool vs Newcastle United
 #EXTVLCOPT:http-origin=https://ppv.land
 #EXTVLCOPT:http-referrer=https://ppv.land/
@@ -81,7 +81,7 @@ https://director.taihotel.asia/v3/director/VE1MGQzNzI5MTE0YjQwLTVmYmEtYmE3NC1kOT
 https://tv.nknews.org/tvhls/stream.m3u8?md5=nZUgHENb68iNLS8NR2ChvQ&expires=1737237600
 #EXTINF:-1 tvg-id="BetterLifeNatureChannel.us" tvg-logo="https://i.imgur.com/LMHrQJu.png" group-title="Relax",Better Life Nature Channel (480p)
 https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
-#EXTINF:-1 tvg-id="10BoldAdelaide.au" tvg-logo="https://i.imgur.com/2xglh33.png" group-title="Lifestyle;Relax",10 Bold Adelaide (1080p)
-https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
 #EXTINF:-1 tvg-id="MyZenTV.fr" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="Relax",Myzen TV [Geo-blocked]
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8
+#EXTINF:-1 tvg-id="10BoldAdelaide.au" tvg-logo="https://i.imgur.com/2xglh33.png" group-title="Lifestyle;Relax",10 Bold Adelaide (1080p)
+https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8

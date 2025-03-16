@@ -1,0 +1,107 @@
+2025-03-16 13:07:29,734 - INFO - Found 53 channels in the playlist
+2025-03-16 13:07:29,813 - WARNING - HTTP request failed for East vs West 17: HTTPSConnectionPool(host='director.mgi9ehlj7z061brnpp28wr2x7n9wvpr10.click', port=443): Max retries exceeded with url: /v3/director/VE1ZWQzNTczYTk0NzY4LWYyMWItZjI5NC1iZGVlLTVjODJhZjAz/master.m3u8?md5=lkyShchwEgH-u8lcZuhH8w&expires=1743300000 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f2201831a90>: Failed to resolve 'director.mgi9ehlj7z061brnpp28wr2x7n9wvpr10.click' ([Errno -2] Name or service not known)"))
+2025-03-16 13:07:30,612 - WARNING - HTTP request failed for Grand Canyon Lopes vs. Utah Valley Wolverines with status code: 404
+2025-03-16 13:07:32,012 - WARNING - HTTP request failed for East vs West 17: HTTPSConnectionPool(host='director.mgi9ehlj7z061brnpp28wr2x7n9wvpr10.click', port=443): Max retries exceeded with url: /v3/director/VE1ZWQzNTczYTk0NzY4LWYyMWItZjI5NC1iZGVlLTVjODJhZjAz/master.m3u8?md5=lkyShchwEgH-u8lcZuhH8w&expires=1743300000 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f2201845450>: Failed to resolve 'director.mgi9ehlj7z061brnpp28wr2x7n9wvpr10.click' ([Errno -2] Name or service not known)"))
+2025-03-16 13:07:32,061 - ERROR - Failed to play https://director.mgi9ehlj7z061brnpp28wr2x7n9wvpr10.click/v3/director/VE1ZWQzNTczYTk0NzY4LWYyMWItZjI5NC1iZGVlLTVjODJhZjAz/master.m3u8?md5=lkyShchwEgH-u8lcZuhH8w&expires=1743300000: Stream does not work
+2025-03-16 13:07:32,545 - WARNING - HTTP request failed for 2025 Players Championship 7 (Board 1) with status code: 404
+2025-03-16 13:07:32,767 - WARNING - HTTP request failed for Cornell Big Red vs. Yale Bulldogs with status code: 404
+2025-03-16 13:07:34,547 - WARNING - HTTP request failed for Grand Canyon Lopes vs. Utah Valley Wolverines with status code: 404
+2025-03-16 13:07:34,995 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1OGI0NDhlM2ZhZjVkLWIyYTgtM2Y2NC05MmFlLThlYzIzOTk4/master.m3u8?md5=bTxYlXR9bQQejSO3MYqjow&expires=1742106600: Stream not found (404)
+2025-03-16 13:07:36,454 - WARNING - HTTP request failed for 2025 Players Championship 7 (Board 3) with status code: 404
+2025-03-16 13:07:36,483 - WARNING - HTTP request failed for 2025 Players Championship 7 (Board 1) with status code: 404
+2025-03-16 13:07:36,800 - WARNING - HTTP request failed for Cornell Big Red vs. Yale Bulldogs with status code: 404
+2025-03-16 13:07:36,819 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1ODhiYTIxNzY2MDBlLTllMDgtMjQ3NC1iMjFkLWVhMjkxM2Qx/master.m3u8?md5=X0bcLvI7n40ZNwrhkp0bFw&expires=1742238000: Stream not found (404)
+2025-03-16 13:07:37,242 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1OGI0NDhlM2ZhZjVkLWIyYTgtM2Y2NC05MmFlLThlYzIzOTk4/master.m3u8?md5=fo_1qBdrXGug_zv1aj-7Ew&expires=1742151600: Stream not found (404)
+2025-03-16 13:07:37,574 - WARNING - HTTP request failed for 2025 Players Championship 7 (Board 4) with status code: 404
+2025-03-16 13:07:37,626 - WARNING - HTTP request failed for 2025 Players Championship 7 (Board 2) with status code: 404
+2025-03-16 13:07:37,889 - WARNING - HTTP request failed for 2025 Players Championship 8 (Board 1) with status code: 404
+2025-03-16 13:07:40,428 - WARNING - HTTP request failed for 2025 Players Championship 7 (Board 3) with status code: 404
+2025-03-16 13:07:40,763 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1YTk5NjU3NTg5ZDQ5LTliNWItNTI0NC1jZjY0LWMwMmYwYmE0/master.m3u8?md5=X0bcLvI7n40ZNwrhkp0bFw&expires=1742238000: Stream not found (404)
+2025-03-16 13:07:41,322 - WARNING - HTTP request failed for 2025 Players Championship 7 (Board 2) with status code: 404
+2025-03-16 13:07:41,360 - WARNING - HTTP request failed for 2025 Players Championship 7 (Board 4) with status code: 404
+2025-03-16 13:07:41,420 - WARNING - HTTP request failed for 2025 Players Championship 7 Board One (German Commentary) with status code: 404
+2025-03-16 13:07:41,599 - WARNING - HTTP request failed for 2025 Players Championship 8 (Board 1) with status code: 404
+2025-03-16 13:07:41,687 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1N2YwZDZjYzFhY2Q5LWU0MDktZjQxNC0zOTUzLTJhMTc5ZTc3/master.m3u8?md5=X0bcLvI7n40ZNwrhkp0bFw&expires=1742238000: Stream not found (404)
+2025-03-16 13:07:41,766 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1OWYyZGI4NzdmYWZiLTZhNWItMWY4NC01NDI4LTM2ODRlZjAx/master.m3u8?md5=X0bcLvI7n40ZNwrhkp0bFw&expires=1742238000: Stream not found (404)
+2025-03-16 13:07:42,038 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1NDJkNThkZTk4ZWY1LWFmZjgtN2MzNC04YWM1LWZhN2EzYTcx/master.m3u8?md5=dmB1mwj-sLSFxbxDxMaBcQ&expires=1742929200: Stream not found (404)
+2025-03-16 13:07:42,407 - WARNING - HTTP request failed for 2025 Players Championship 8 Board One (German Commentary) with status code: 404
+2025-03-16 13:07:42,500 - WARNING - HTTP request failed for 2025 Players Championship 8 (Board 2) with status code: 404
+2025-03-16 13:07:42,745 - WARNING - HTTP request failed for 2025 Players Championship 8 (Board 3) with status code: 404
+2025-03-16 13:07:45,172 - WARNING - HTTP request failed for 2025 Players Championship 7 Board One (German Commentary) with status code: 404
+2025-03-16 13:07:45,610 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1YjI5MjA4OTFhNDEwLWQwZDgtMWRkNC1kMmE3LWQ3OWNmMWI4/master.m3u8?md5=X0bcLvI7n40ZNwrhkp0bFw&expires=1742238000: Stream not found (404)
+2025-03-16 13:07:46,138 - WARNING - HTTP request failed for 2025 Players Championship 8 (Board 2) with status code: 404
+2025-03-16 13:07:46,159 - WARNING - HTTP request failed for 2025 Players Championship 8 Board One (German Commentary) with status code: 404
+2025-03-16 13:07:46,301 - WARNING - HTTP request failed for 2025 Players Championship 8 (Board 3) with status code: 404
+2025-03-16 13:07:46,321 - WARNING - HTTP request failed for 2025 Bet MGM Premier League Night Seven - Spanish with status code: 404
+2025-03-16 13:07:46,436 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1OTk3YWVhMmY0MTcxLTEzZjgtZWU3NC1hNjMxLTNjMmZkODMy/master.m3u8?md5=dmB1mwj-sLSFxbxDxMaBcQ&expires=1742929200: Stream not found (404)
+2025-03-16 13:07:46,506 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1MDA0OGE3ZjRjNmNhLTk4MDktYzhjNC03Y2YzLTU3ZjM1ZWYw/master.m3u8?md5=Rc8yhTx-d1d6hqElne-EuA&expires=1742324400: Stream not found (404)
+2025-03-16 13:07:46,640 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1OTI5NmQ4MjBjMmYxLWU0ZWItZDk1NC1lNDRlLTk3ZDMzMTZm/master.m3u8?md5=dmB1mwj-sLSFxbxDxMaBcQ&expires=1742929200: Stream not found (404)
+2025-03-16 13:07:47,082 - WARNING - HTTP request failed for 2025 Players Championship 8 (Board 4) with status code: 404
+2025-03-16 13:07:49,669 - WARNING - HTTP request failed for PSG vs Olympique Marseille with status code: 404
+2025-03-16 13:07:50,221 - WARNING - HTTP request failed for 2025 Bet MGM Premier League Night Seven - Spanish with status code: 404
+2025-03-16 13:07:50,586 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1OTI1NjY4MzE2NDZmLWNjOTgtMjg0NC0wNjQ0LWRkNTEyYzE0/master.m3u8?md5=KIJx6jhi7kyfLpKRUnLrMw&expires=1742514900: Stream not found (404)
+2025-03-16 13:07:50,876 - WARNING - HTTP request failed for 2025 Players Championship 8 (Board 4) with status code: 404
+2025-03-16 13:07:51,202 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1NTQxYjBiMzJhZjM2LWI2YmItODdiNC1jN2IwLWI2ODdmNWQw/master.m3u8?md5=dmB1mwj-sLSFxbxDxMaBcQ&expires=1742929200: Stream not found (404)
+2025-03-16 13:07:51,763 - WARNING - HTTP request failed for LaLiga: Atlético Madrid vs Barcelona with status code: 404
+2025-03-16 13:07:51,794 - WARNING - HTTP request failed for Baltimore Orioles vs. Detroit Tigers with status code: 404
+2025-03-16 13:07:53,625 - WARNING - HTTP request failed for PSG vs Olympique Marseille with status code: 404
+2025-03-16 13:07:53,972 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1N2Q4ZjU2NjE3MTc5LTllZTgtMGM4NC1mOGQwLWEzM2IxNDY0/master.m3u8?md5=ba9tzttbME_7J047EMHDlw&expires=1742165100: Stream not found (404)
+2025-03-16 13:07:54,577 - WARNING - HTTP request failed for Tampa Bay Rays vs. Washington Nationals with status code: 404
+2025-03-16 13:07:55,284 - WARNING - HTTP request failed for LaLiga: Atlético Madrid vs Barcelona with status code: 404
+2025-03-16 13:07:55,554 - WARNING - HTTP request failed for Baltimore Orioles vs. Detroit Tigers with status code: 404
+2025-03-16 13:07:55,728 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1YmJmYWNiZjk2OTc1LTEyM2ItMzg1NC1iYzNlLTM3MzEyNTg2/master.m3u8?md5=iIbeALVjdqwKM9F9mf3dZw&expires=1742164200: Stream not found (404)
+2025-03-16 13:07:56,007 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1YWJmNWYzYjhjNjY2LWE1OGItZmI2NC1iNTUwLTBkNDgwNDg4/master.m3u8?md5=3EMGV-WkApkjMMqkMU3avQ&expires=1742155500: Stream not found (404)
+2025-03-16 13:07:56,456 - WARNING - HTTP request failed for Philadelphia Phillies vs. Baltimore Orioles with status code: 404
+2025-03-16 13:07:56,638 - WARNING - HTTP request failed for Pittsburgh Pirates vs. New York Yankees with status code: 404
+2025-03-16 13:07:58,428 - WARNING - HTTP request failed for Tampa Bay Rays vs. Washington Nationals with status code: 404
+2025-03-16 13:07:58,792 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1NDFhNjk4YjE5YzA3LTgyMmEtYmVjNC04N2RlLTIyYWI2MDlm/master.m3u8?md5=3EMGV-WkApkjMMqkMU3avQ&expires=1742155500: Stream not found (404)
+2025-03-16 13:07:59,369 - WARNING - HTTP request failed for Atlanta Braves vs. Toronto Blue Jays with status code: 404
+2025-03-16 13:08:00,074 - WARNING - HTTP request failed for Philadelphia Phillies vs. Baltimore Orioles with status code: 404
+2025-03-16 13:08:00,403 - WARNING - HTTP request failed for Pittsburgh Pirates vs. New York Yankees with status code: 404
+2025-03-16 13:08:00,412 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1ZmM0NzVlNjM1NTY0LWFjZWEtZDI4NC1kZjllLWVjZDc3N2E4/master.m3u8?md5=3EMGV-WkApkjMMqkMU3avQ&expires=1742155500: Stream not found (404)
+2025-03-16 13:08:00,714 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1MmQ4YjNmYzE5YTY1LTZjZDktMTEwNC05NzExLTc2M2QwNGE2/master.m3u8?md5=3EMGV-WkApkjMMqkMU3avQ&expires=1742155500: Stream not found (404)
+2025-03-16 13:08:01,179 - WARNING - HTTP request failed for New York Yankees vs. Tampa Bay Rays with status code: 404
+2025-03-16 13:08:01,426 - WARNING - HTTP request failed for Houston Astros vs. New York Mets with status code: 404
+2025-03-16 13:08:02,817 - WARNING - HTTP request failed for Atlanta Braves vs. Toronto Blue Jays with status code: 404
+2025-03-16 13:08:03,178 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1YjQyNWFjNjFhNmYzLTE3NTktNDg1NC00YTQ3LTQxYmM1MTVi/master.m3u8?md5=PwRoIHaHog6OP7PmI5gKkw&expires=1742155620: Stream not found (404)
+2025-03-16 13:08:03,798 - WARNING - HTTP request failed for St. Louis Cardinals vs. Miami Marlins with status code: 404
+2025-03-16 13:08:04,778 - WARNING - HTTP request failed for New York Yankees vs. Tampa Bay Rays with status code: 404
+2025-03-16 13:08:05,043 - WARNING - HTTP request failed for Houston Astros vs. New York Mets with status code: 404
+2025-03-16 13:08:05,108 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1ZjQ1MmEzYzNhMzIwLThiN2ItMGYyNC1mODEyLTEzNzI4YmQz/master.m3u8?md5=3EMGV-WkApkjMMqkMU3avQ&expires=1742155500: Stream not found (404)
+2025-03-16 13:08:05,377 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1NTgwYWU4MzQ5OGRjLTEzYzgtMzBmNC0zY2IyLTdhM2ZlY2Uy/master.m3u8?md5=v9LNzOww312beCMUhJ2FlQ&expires=1742155800: Stream not found (404)
+2025-03-16 13:08:05,684 - WARNING - HTTP request failed for Boston Red Sox vs. Minnesota Twins with status code: 404
+2025-03-16 13:08:05,803 - WARNING - HTTP request failed for Seattle Mariners vs. Cincinnati Reds with status code: 404
+2025-03-16 13:08:07,649 - WARNING - HTTP request failed for St. Louis Cardinals vs. Miami Marlins with status code: 404
+2025-03-16 13:08:07,949 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1YjVmMDI3YjEwMzljLWQzNjgtZGI5NC1hZjZmLTBiOGNmODQ0/master.m3u8?md5=v9LNzOww312beCMUhJ2FlQ&expires=1742155800: Stream not found (404)
+2025-03-16 13:08:07,976 - WARNING - HTTP request failed for Chicago White Sox vs. Texas Rangers with status code: 404
+2025-03-16 13:08:08,590 - WARNING - HTTP request failed for Kansas City Royals vs. Colorado Rockies with status code: 404
+2025-03-16 13:08:09,490 - WARNING - HTTP request failed for Seattle Mariners vs. Cincinnati Reds with status code: 404
+2025-03-16 13:08:09,948 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1MmZlYmFjYzI2MDc1LWYzZjktNjk3NC1lZDRhLTg5MDQ1NDU4/master.m3u8?md5=S5p7XdPSTd1aXIZN9kvYag&expires=1742166300: Stream not found (404)
+2025-03-16 13:08:10,648 - WARNING - HTTP request failed for San Diego Padres vs. Los Angeles Angels with status code: 404
+2025-03-16 13:08:11,539 - WARNING - HTTP request failed for Chicago White Sox vs. Texas Rangers with status code: 404
+2025-03-16 13:08:11,834 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1YTUxZDg4MGIwYjVhLWNjZDktY2EwNC01ODA5LTZkOTViMDE5/master.m3u8?md5=S5p7XdPSTd1aXIZN9kvYag&expires=1742166300: Stream not found (404)
+2025-03-16 13:08:12,326 - WARNING - HTTP request failed for Kansas City Royals vs. Colorado Rockies with status code: 404
+2025-03-16 13:08:12,436 - WARNING - HTTP request failed for Cleveland Guardians vs. Milwaukee Brewers with status code: 404
+2025-03-16 13:08:12,647 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1NjkxMmNmNWU0OGZmLTZlNDgtZTk0NC05ZjE1LTcwNTc0MTI4/master.m3u8?md5=GlwyTcqKmmUn6Rw9N0j1WQ&expires=1742166600: Stream not found (404)
+2025-03-16 13:08:14,529 - WARNING - HTTP request failed for San Diego Padres vs. Los Angeles Angels with status code: 404
+2025-03-16 13:08:14,856 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1OWU2MzFkOTA2ZDFiLTQ4ZTktYTQyNC1lMWNiLWU5YzZhODVm/master.m3u8?md5=GlwyTcqKmmUn6Rw9N0j1WQ&expires=1742166600: Stream not found (404)
+2025-03-16 13:08:16,019 - WARNING - HTTP request failed for Cleveland Guardians vs. Milwaukee Brewers with status code: 404
+2025-03-16 13:08:16,338 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1MjU5MGQ0MTJkM2FkLTJhYTgtNDVkNC1iNGEwLTgyOTZhMDJj/master.m3u8?md5=GlwyTcqKmmUn6Rw9N0j1WQ&expires=1742166600: Stream not found (404)
+2025-03-16 13:08:16,937 - WARNING - HTTP request failed for Arizona Diamondbacks vs. San Diego Padres with status code: 404
+2025-03-16 13:08:19,298 - ERROR - Failed to play https://p3.flowstreams.top/cows1/index.m3u8?md5=BC_315UONip5N57SgSUs3A&expires=1740772800: Stream does not work
+2025-03-16 13:08:19,489 - WARNING - HTTP request failed for Boston Red Sox vs. Minnesota Twins with status code: 404
+2025-03-16 13:08:19,931 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1YjBlOGIzMjEzNzg1LTMyYzktNDA5NC00MTIyLTgxOGYyODU0/master.m3u8?md5=3EMGV-WkApkjMMqkMU3avQ&expires=1742155500: Stream not found (404)
+2025-03-16 13:08:20,616 - WARNING - HTTP request failed for Arizona Diamondbacks vs. San Diego Padres with status code: 404
+2025-03-16 13:08:20,683 - WARNING - HTTP request failed for 10 Bold (720p) [Geo-blocked] with status code: 404
+2025-03-16 13:08:20,936 - ERROR - Failed to play https://director.taihotel.asia/v3/director/VE1OGRiM2QyY2Q3MzU5LWUyNWEtYjY3NC1hYWIwLWEzMDM1NDU5/master.m3u8?md5=GlwyTcqKmmUn6Rw9N0j1WQ&expires=1742166600: Stream not found (404)
+2025-03-16 13:08:23,354 - WARNING - HTTP request failed for Fireplace Lounge (2160p) with status code: 404
+2025-03-16 13:08:23,536 - WARNING - HTTP request failed for 10 Bold (720p) [Geo-blocked] with status code: 404
+2025-03-16 13:08:23,766 - ERROR - Failed to play https://i.mjh.nz/10bold-nsw.m3u8: Stream not found (404)
+2025-03-16 13:08:26,482 - WARNING - HTTP request failed for Fireplace Lounge (2160p) with status code: 404
+2025-03-16 13:08:26,795 - ERROR - Failed to play https://d300k472vyqakg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-aijrtvzii4xsm-ssai-prd/v1/channel/FIREPLACE_4K_2022/index.m3u8: Stream not found (404)
+2025-03-16 13:08:27,432 - INFO - === Summary ===
+2025-03-16 13:08:27,432 - INFO - Total channels: 53
+2025-03-16 13:08:27,432 - INFO - Working: 19 (35.85%)
+2025-03-16 13:08:27,432 - INFO - Failed: 34 (64.15%)
+2025-03-16 13:08:27,432 - INFO - Timeouts: 0 (0.00%)
+2025-03-16 13:08:27,432 - INFO - Skipped: 0 (0.00%)
