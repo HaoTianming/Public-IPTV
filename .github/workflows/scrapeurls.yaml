@@ -75,11 +75,11 @@ jobs:
       - name: Setup and Connect to VPN via OpenVPN 📶🛜
         if: inputs.vpn_solution == 'openvpn' 
         run: |
-            sudo wget "https://raw.githubusercontent.com/ProtonVPN/scripts/master/update-resolv-conf.sh" -O "/etc/openvpn/update-resolv-conf"  > /dev/null
-            sudo chmod +x "/etc/openvpn/update-resolv-conf"  > /dev/null
+            sudo wget "https://raw.githubusercontent.com/ProtonVPN/scripts/master/update-resolv-conf.sh" -O "/etc/openvpn/update-resolv-conf"
+            sudo chmod +x "/etc/openvpn/update-resolv-conf"
             printf '%s' "${{ secrets.OPENVPNCONFIG }}" | sudo tee ~/config.ovpn > /dev/null
             printf '%s' "${{ secrets.OPENVPNCONFIGLOGIN }}" | sudo tee /etc/openvpn/credentials.txt > /dev/null
-            sudo openvpn ~/config.ovpn > /dev/null
+            sudo openvpn ~/config.ovpn
 
       - name: Check IP Address   
         run: curl ifconfig.me
