@@ -58,13 +58,13 @@ jobs:
         if: inputs.vpn_solution == 'wireguard' 
         run: |
             sudo apt-get update
-            sudo apt-get install resolvconf wireguard
+            sudo apt-get install wireguard
 
       - name: Setup OpenVPN Dependencies 🧑‍🏭
         if: inputs.vpn_solution == 'openvpn' 
         run: |
             sudo apt-get update
-            sudo apt-get install openresolv openvpn 
+            sudo apt-get install openvpn 
             
       - name: Setup and Connect to VPN via WireGuard 📶🛜
         if: inputs.vpn_solution == 'wireguard' 
