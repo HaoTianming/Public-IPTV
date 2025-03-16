@@ -55,25 +55,25 @@ jobs:
             pip install -r .github/pyscripts/requirements.txt
             
       - name: Setup WireGuard Dependencies 🧑‍🏭
-        if: inputs.vpn == 'wireguard' 
+        if: inputs.vpn_solution == 'wireguard' 
         run: |
             sudo apt-get update
             sudo apt-get install resolvconf wireguard
 
       - name: Setup OpenVPN Dependencies 🧑‍🏭
-        if: inputs.vpn == 'openvpn' 
+        if: inputs.vpn_solution == 'openvpn' 
         run: |
             sudo apt-get update
             sudo apt-get install openresolv openvpn 
             
       - name: Setup and Connect to VPN via WireGuard 📶🛜
-        if: inputs.vpn == 'wireguard' 
+        if: inputs.vpn_solution == 'wireguard' 
         run: |
             printf '%s' "${{ secrets.WIREGUARDCONFIG }}" | sudo tee /etc/wireguard/wg0.conf > /dev/null
             sudo wg-quick up wg0 > /dev/null
 
       - name: Setup and Connect to VPN via OpenVPN 📶🛜
-        if: inputs.vpn == 'openvpn' 
+        if: inputs.vpn_solution == 'openvpn' 
         run: |
             sudo wget "https://raw.githubusercontent.com/ProtonVPN/scripts/master/update-resolv-conf.sh" -O "/etc/openvpn/update-resolv-conf"  > /dev/null
             sudo chmod +x "/etc/openvpn/update-resolv-conf"  > /dev/null
@@ -107,13 +107,13 @@ jobs:
 #          TIMEOUT: ${{ inputs.timeout }} 
 
       - name: Disconnect from WireGuard VPN connection and remove WireGuard config files 📶🛜
-        if: inputs.vpn == 'wireguard' 
+        if: inputs.vpn_solution == 'wireguard' 
         run: |
             sudo wg-quick down wg0 > /dev/null 2>&1
             sudo rm -rf /etc/wireguard/wg0.conf > /dev/null
 
       - name: Disconnect from OpenVPN VPN connection and remove OpenVPN config files 📶🛜
-        if: inputs.vpn == 'openvpn' 
+        if: inputs.vpn_solution == 'openvpn' 
         run: |
             sudo killall openvpn 
             sudo rm -rf ~/config.ovpn
