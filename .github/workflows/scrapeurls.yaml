@@ -79,7 +79,7 @@ jobs:
             sudo chmod +x "/etc/openvpn/update-resolv-conf"
             printf '%s' "${{ secrets.OPENVPNCONFIG }}" | sudo tee ~/config.ovpn > /dev/null
             printf '%s' "${{ secrets.OPENVPNCONFIGLOGIN }}" | sudo tee /etc/openvpn/credentials.txt > /dev/null
-            sudo openvpn ~/config.ovpn --daemon
+            sudo openvpn  --config ~/config.ovpn --daemon
 
       - name: Check IP Address   
         run: curl ifconfig.me
