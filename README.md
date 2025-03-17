@@ -1,6 +1,6 @@
 <div align="center"><h1>An IPTV Extension/Plugin for Cloudstream </h1></div>
 <div align="center"><h2><a href="https://github.com/HaoTianming/Public-IPTV#dmca">DMCA Notice</a></h2></div>
-<div align="center"><h2><a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README.md">🇺🇸 English</a> | <a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README_CN.md">🇨🇳 中文</a></h2></div>
+<div align="center"><h2>Language/语言:<br/><a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README.md">🇺🇸 English</a> | <a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README_CN.md">🇨🇳 中文</a></h2></div>
 
 <br/>
 
