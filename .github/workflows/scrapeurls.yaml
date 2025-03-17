@@ -75,11 +75,11 @@ jobs:
       - name: Setup and Connect to VPN via OpenVPN 📶🛜
         if: inputs.vpn_solution == 'openvpn' 
         run: |
-            sudo wget "https://raw.githubusercontent.com/ProtonVPN/scripts/master/update-resolv-conf.sh" -O "/etc/openvpn/update-resolv-conf"
-            sudo chmod +x "/etc/openvpn/update-resolv-conf"
+            sudo wget "https://raw.githubusercontent.com/ProtonVPN/scripts/master/update-resolv-conf.sh" -O "/etc/openvpn/update-resolv-conf" > /dev/null
+            sudo chmod +x "/etc/openvpn/update-resolv-conf" > /dev/null
             printf '%s' "${{ secrets.OPENVPNCONFIG }}" | sudo tee ~/config.ovpn > /dev/null
             printf '%s' "${{ secrets.OPENVPNCONFIGLOGIN }}" | sudo tee /etc/openvpn/credentials.txt > /dev/null
-            sudo openvpn  --config ~/config.ovpn --daemon
+            sudo openvpn  --config ~/config.ovpn --daemon > /dev/null
             sleep 15
 
       - name: Check IP Address   
@@ -116,9 +116,9 @@ jobs:
       - name: Disconnect from OpenVPN VPN connection and remove OpenVPN config files 📶🛜
         if: inputs.vpn_solution == 'openvpn' 
         run: |
-            sudo pkill -x openvpn 
-            sudo rm -rf ~/config.ovpn
-            sudo rm -rf /etc/openvpn/credentials.txt
+            sudo pkill -x openvpn > /dev/null
+            sudo rm -rf ~/config.ovpn > /dev/null
+            sudo rm -rf /etc/openvpn/credentials.txt > /dev/null
             
       - name: Remove unnecessary files 🗑️
         run: |
