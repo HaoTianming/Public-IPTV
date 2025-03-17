@@ -1,5 +1,6 @@
 <div align="center"><h1>用于 Cloudstream 的 IPTV 扩展/插件</h1></div>
 <div align="center"><h2><a href="https://github.com/HaoTianming/Public-IPTV#dmca">DMCA 通知</a></h2></div>
+<div align="center"><h2><a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README.md">🇺🇸 English</a> | <a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README_CN.md">🇨🇳 中文</a></h2></div>
 
 <br/>
 
