@@ -116,7 +116,7 @@ jobs:
       - name: Disconnect from OpenVPN VPN connection and remove OpenVPN config files 📶🛜
         if: inputs.vpn_solution == 'openvpn' 
         run: |
-            sudo pkill -x openvpn > /dev/null
+            sudo pkill openvpn > /dev/null
             sudo rm -rf ~/config.ovpn > /dev/null
             sudo rm -rf /etc/openvpn/credentials.txt > /dev/null
             
