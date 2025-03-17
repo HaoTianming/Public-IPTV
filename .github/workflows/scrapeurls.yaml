@@ -80,7 +80,6 @@ jobs:
             printf '%s' "${{ secrets.OPENVPNCONFIG }}" | sudo tee ~/config.ovpn > /dev/null
             printf '%s' "${{ secrets.OPENVPNCONFIGLOGIN }}" | sudo tee /etc/openvpn/credentials.txt > /dev/null
             sudo openvpn  --config ~/config.ovpn --daemon > /dev/null
-            sleep 15
 
       - name: Check IP Address   
         run: curl ifconfig.me
@@ -102,7 +101,7 @@ jobs:
       - name: Check playlist 📺 
         working-directory: .github/pyscripts
         run: |
-          python iptvcheck.py -p playlists/playlist.m3u8 -s playlists/scrapedstreams.m3u8 -t 8 -ft 10
+          python iptvcheck.py -p playlists/playlist.m3u8 -s playlists/scrapedstreams.m3u8 -t 8 -ft 5
 #        env:
 #          NUM_THREADS: ${{ inputs.num_threads }}
 #          TIMEOUT: ${{ inputs.timeout }} 
@@ -122,7 +121,7 @@ jobs:
             
       - name: Remove unnecessary files 🗑️
         run: |
-            sudo rm -f .github/pyscripts/playlists/playlist.m3u8        
+            sudo rm -f .github/pyscripts/playlists/playlist.m3u8 > /dev/null       
 
       - name: Check Files and Folders and Subfolders 📂
         run: |
