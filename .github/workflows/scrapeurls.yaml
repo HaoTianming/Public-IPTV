@@ -19,7 +19,7 @@ on:
           - openvpn
           - wireguard
         required: true
-        default: 'wireguard'
+        default: 'openvpn'
           
 #  schedule:
 #         - cron: "0 */2 * * *"
