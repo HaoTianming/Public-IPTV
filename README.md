@@ -1,16 +1,10 @@
 <div align="center"><h1>An IPTV Extension/Plugin for Cloudstream </h1></div>
-<div align="center"><h2><a href="https://github.com/HaoTianming/Public-IPTV#dmca">DMCA Notice</a></h2></div>
-<div align="center"><h2>Language/语言:<br/><a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README.md">🇺🇸 English</a> | <a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README_CN.md">🇨🇳 中文</a></h2></div>
+
+<p align="center"><a href="https://github.com/HaoTianming/Public-IPTV/raw/refs/heads/master/LICENSE"><img src="https://www.gnu.org/graphics/agplv3-with-text-162x68.png" /></a><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=kotlin,androidstudio,gradle,github,githubactions&theme=light&perline=5" /></a></p>
 
 <br/>
 
-
-<p align="center">
-  <a href="https://github.com/HaoTianming/Public-IPTV/raw/refs/heads/master/LICENSE"><img src="https://www.gnu.org/graphics/agplv3-with-text-162x68.png" /></a><br/><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,gradle,github,githubactions&theme=light&perline=5" />
-  </a>
-</p>
+<div align="center"><h2><a href="https://github.com/HaoTianming/Public-IPTV#dmca">DMCA Notice</a></h2></div><div align="center"><h2>Language/语言:<br/><a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README.md">🇺🇸 English</a> | <a href="https://github.com/HaoTianming/Public-IPTV/blob/main/README_CN.md">🇨🇳 中文</a></h2></div>
 
 <br/>
 
