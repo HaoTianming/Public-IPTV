@@ -13,7 +13,7 @@ on:
 #       required: true
 #        default: '25'
       vpn_solution:
-        description: 'OpenVPN (Status: Unknown) or WireGuard (Status: Unstable)'
+        description: 'OpenVPN (Status: Stable) or WireGuard (Status: Unstable)'
         type: choice
         options:
           - openvpn
