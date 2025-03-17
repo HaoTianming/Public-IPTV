@@ -64,7 +64,7 @@ jobs:
         if: inputs.vpn_solution == 'openvpn' 
         run: |
             sudo apt-get update
-            sudo apt-get install openvpn 
+            sudo apt-get install openvpn openvpn-systemd-resolved
             
       - name: Setup and Connect to VPN via WireGuard 📶🛜
         if: inputs.vpn_solution == 'wireguard' 
@@ -80,6 +80,7 @@ jobs:
             printf '%s' "${{ secrets.OPENVPNCONFIG }}" | sudo tee ~/config.ovpn > /dev/null
             printf '%s' "${{ secrets.OPENVPNCONFIGLOGIN }}" | sudo tee /etc/openvpn/credentials.txt > /dev/null
             sudo openvpn  --config ~/config.ovpn --daemon
+            sleep 15
 
       - name: Check IP Address   
         run: curl ifconfig.me
